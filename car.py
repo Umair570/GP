@@ -1,7 +1,7 @@
 class Cars:
-    def __init__(self,colour,model):   #init is the method or function which is automatically called in a class
-        self.col=colour   #self. means that self is the object and the thing which comes after
-                             #. means that it is the attribute of that object(specific object) for that instance
+    def __init__(self,colour,model):  
+        self.col=colour   
+                          
         self.mod=model
     def car(self):
         return f"{self.col} is driving and its model is {self.mod}"
